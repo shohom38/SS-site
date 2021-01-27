@@ -1,0 +1,224 @@
+#header {
+    background-color: #f8f8f8;
+    height: 63px;
+}
+
+.header-wrap {
+    position: relative;
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.logo-wrap {
+    vertical-align: top;
+    font-size: 0;
+    display: inline-block;
+}
+
+.logo-wrap > h1 {
+    padding-right: 112px;
+}
+
+.logo-wrap > h1 > a {
+    display: inline-block;
+    width: 150px;
+    background: url('../img/header/logo.png') 0 0 no-repeat;
+    padding-top: 63px;
+    font-size: 0;
+}
+
+.translate-wrap {
+    position: absolute;
+    right: 2px;
+    top: 8px;
+}
+
+.translate-wrap > ul {
+    font-size: 0;
+}
+
+.translate-wrap > ul::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.translate-wrap > ul > li {
+    float:  left;
+    background: url('../img/header/divider-top-header.png') 8px 0 no-repeat;
+}
+
+.translate-wrap > ul > li + li {
+    padding-left: 15px;
+}
+
+.translate-wrap > ul > li:first-child > a {
+    background: url('../img/header/english.png') 0 center no-repeat;
+    padding-top: 9px;
+    width: 35px;
+    display: inline-block;
+    font-size: 0;
+}
+
+.translate-wrap > ul > li:nth-child(2) > a {
+    background: url('../img/header/contact-us.png') 0 center no-repeat;
+    padding-top: 9px;
+    width: 50px;
+    display: inline-block;
+    font-size: 0;
+}
+
+.nav-list-wrap {
+    display: inline-block;
+}
+
+.nav-list-wrap > ul::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.nav-list-wrap > ul > li {
+    float: left;
+    font-size: 0;
+}
+
+.nav-list-wrap > ul > li + li {
+    margin-left: 58px;
+}
+
+.nav-list-wrap > ul > li > a {
+    display: inline-block;
+}
+
+.nav-list-wrap > ul > li:first-child > a {
+    background: url('../img/header/intro-comp.png') 0 0 no-repeat;
+    width: 52px;
+    padding-top: 63px;
+    font-size: 0;
+}
+
+.nav-list-wrap > ul > li:nth-child(2) > a {
+    background: url('../img/header/Sust-manage.png') 0 0 no-repeat;
+    width: 79px;
+    padding-top: 63px;
+    font-size: 0;
+}
+
+.nav-list-wrap > ul > li:nth-child(3) > a {
+    background: url('../img/header/invest-info.png') 0 0 no-repeat;
+    width: 53px;
+    padding-top: 63px;
+    font-size: 0;
+}
+
+.nav-list-wrap > ul > li:nth-child(4) > a {
+    background: url('../img/header/cyber.png') 0 0 no-repeat;
+    width: 67px;
+    padding-top: 63px;
+    font-size: 0;
+}
+
+.nav-input-btn-wrap {
+    position: absolute;
+    right: 0;
+    top: 28px;
+}
+
+.input-wrap {
+    box-sizing: border-box;
+    min-width: 152px;
+    height: 24px;
+    padding-left: 5px;
+    border: 1px solid #a7a7a7;
+    border-radius: 13px;
+    background-color: #ffffff;
+    box-shadow: inset 2px 1px 5px #cccccc;
+    position: relative;
+}
+
+.input-wrap > input {
+    font-size: 10px;
+    padding-left: 12px;
+}
+
+.input-wrap > a {
+    position: absolute;
+    top: 3px;
+    right: 12px;
+}
+
+.nav-list-wrap > ul > li > ul {
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+
+.nav-list-wrap > ul > li > ul::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.nav-list-wrap > ul > li > ul > li {
+    float: left;
+}
+
+.nav-list-wrap > ul > li > ul > li + li {
+
+}
+
+.nav-list-wrap > ul > li > ul > li > a {
+    display: inline-block;
+    height: 35px;
+}
+
+.nav-list-wrap > ul > li > ul > li:first-child > a {
+    background: url('../img/header/inner-list-1.png') 0 0 no-repeat;
+    width: 137px;
+}
+
+.nav-list-wrap > ul > li > ul > li:nth-child(2) > a {
+    background: url('../img/header/inner-list-2.png') 0 0 no-repeat;
+    width: 122px;
+}
+
+.nav-list-wrap > ul > li > ul > li:nth-child(3) > a {
+    background: url('../img/header/inner-list-3.png') 0 0 no-repeat;
+    width: 134px;
+}
+
+.nav-list-wrap > ul > li > ul > li:nth-child(4) > a {
+    background: url('../img/header/inner-list-4.png') 0 0 no-repeat;
+    width: 108px;
+}
+
+.nav-list-wrap > ul > li > ul > li:nth-child(5) > a {
+    background: url('../img/header/inner-list-5.png') 0 0 no-repeat;
+    width: 104px;
+}
+
+.nav-list-wrap > ul > li > ul > li:nth-child(6) > a {
+    background: url('../img/header/inner-list-6.png') 0 0 no-repeat;
+    width: 108px;
+}
+
+.nav-list-wrap > ul > li > ul > li:nth-child(7) > a {
+    background: url('../img/header/inner-list-7.png') 0 0 no-repeat;
+    width: 125px;
+}
+
+.nav-list-wrap > ul > li > ul > li:nth-child(8) > a {
+    background: url('../img/header/inner-list-8.png') 0 0 no-repeat;
+    width: 122px;
+}
+
+.contents-wrap {
+    padding-top: 35px;
+    text-align: center;
+}
+
+.contents-wrap > article {
+    display: inline-block;
+}
