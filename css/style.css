@@ -1,0 +1,28 @@
+#contents {
+    background-color: #c6dbe3;   
+}
+
+.contents-wrap {
+    background: url('../img/contents/bg-samsung.png') 0 0 no-repeat;
+}
+
+.title-company-wrap {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.title-company-wrap > p:first-child {
+    background: url('../img/contents/slogan-ss-eng.png') 0 0 no-repeat;
+    width: 470px;
+    height: 92px;
+    font-size: 0;
+    margin-top: 30px;
+}
+
+.title-company-wrap > p:nth-child(2) {
+    background: url('../img/contents/slogan-ss-kor.png') 0 0 no-repeat;
+    width: 237px;
+    height: 17px;
+    font-size: 0;
+    margin-top: 10px;
+}
