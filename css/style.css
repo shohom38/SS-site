@@ -26,3 +26,62 @@
     font-size: 0;
     margin-top: 10px;
 }
+
+.article-wrap {
+    width: 310px;
+    margin-top: 91px;
+}
+
+.article-wrap > h2 > a {
+    display: block;
+    font-size: 0;
+    height: 57px;;
+}
+
+.article-wrap > img {
+    vertical-align: top;
+}
+
+.archt-wrap > h2 > a {
+    background: url('../img/contents/shorts-cut-archt.png') 0 0 no-repeat;
+}
+
+.trading-wrap > h2 > a {
+    background: url('../img/contents/shorts-cut-trading.png') 0 0 no-repeat;
+}
+
+.list-dot-bg-wrap {
+    background: url('../img/contents/list-style-dot-bg.png') 0 0 no-repeat;
+    height: 63px;
+}
+
+.list-style-dot {
+    padding: 11px 43px;
+}
+
+.list-style-dot::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.list-style-dot > li {
+    float: left;
+}
+
+.notice-wrap {
+    text-align: left;
+}
+
+.notice-wrap > ul {
+    font-size: 12px;
+}
+
+.ad-wrap {
+    text-align: left;
+}
+
+.youtube-shortcuts-wrap > a,
+.facebook-shortcuts-wrap > span {
+    font-size: 12px;
+}
