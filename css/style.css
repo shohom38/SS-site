@@ -89,8 +89,8 @@
 
 .notice-wrap > .title-h4-wrap > a {
     position: absolute;
-    top: 18px;
-    right: 26px;
+    top: -2px;
+    right: 0;
 }
 
 .notice-wrap > ul {
@@ -118,13 +118,13 @@
 .ad-wrap {
     text-align: left;
     background-color: #ffffff;
-    padding: 21px 26px 34px 20px;
+    padding: 21px 26px 22px 20px;
     position: relative;
 }
 
 .link-sns-wrap {
     position: absolute;
-    top: -6px;
+    top: -3px;
     right: 0;
 }
 
@@ -155,6 +155,14 @@
     font-size: 0;
 }
 
+.youtube {
+    background: url('../img/contents/bottom-bg-youtube.png') 0 bottom repeat-x, #ffffff;
+}
+
+.facebook {
+    background: url('../img/contents/bottom-bg-fb.png') 0 bottom repeat-x, #ffffff;
+}
+
 .youtube > .title-h4-wrap > h4 {
     background: url('../img/contents/youtube-title.png') 0 0 no-repeat;
 }
@@ -163,8 +171,35 @@
     background: url('../img/contents/facebook-title.png') 0 0 no-repeat;
 }
 
+
+.youtube-shortcuts-wrap > h5,
+.facebook-shortcuts-wrap > h5,
 .youtube-shortcuts-wrap > a,
 .facebook-shortcuts-wrap > span {
-    font-size: 12px;
+    font-size: 14px;
+}
+
+.sns-btn-link-wrap > a {
+    display: inline-block;
+    font-size: 0;
+    background: url('../img/contents/youtube-link-btn.png');
+    width: 109px;
+    height: 26px;
+    vertical-align: top;
+}
+
+.sns-btn-link-wrap > span {
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+.sns-btn-link-wrap> button {
+    background: url('../img/contents/like-btn.png') 0 0 no-repeat;
+    border: none;
+    outline: none;
+    font-size: 0;
+    width: 68px;
+    height: 26px;
+    vertical-align: middle;
 }
 

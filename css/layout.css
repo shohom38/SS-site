@@ -165,10 +165,6 @@
     float: left;
 }
 
-.nav-list-wrap > ul > li > ul > li + li {
-
-}
-
 .nav-list-wrap > ul > li > ul > li > a {
     display: inline-block;
     height: 35px;
