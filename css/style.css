@@ -71,10 +71,43 @@
 
 .notice-wrap {
     text-align: left;
+    padding: 21px 26px 34px 20px;
+    background-color: #e9f7fe;
+    position: relative;
+}
+
+.notice-wrap > .title-h4-wrap > h4 {
+    background: url('../img/contents/News-title.png') 0 0 no-repeat;
+    height: 13px;
+    font-size: 0;
+}
+
+.notice-wrap > .title-h4-wrap > a {
+    position: absolute;
+    top: 18px;
+    right: 26px;
 }
 
 .notice-wrap > ul {
+    margin-top: 21px;
     font-size: 12px;
+}
+
+.notice-wrap > ul > li {
+    position: relative;
+}
+
+.notice-wrap > ul > li > a {
+    font-size: 12px;
+    line-height: 20px;
+    color: #282828;
+}
+
+.notice-wrap > ul > li > a > span {
+    position:  absolute;
+    right: 3px;
+    font-size: 11px;
+    color: #7d7d7d;
 }
 
 .ad-wrap {
@@ -85,3 +118,4 @@
 .facebook-shortcuts-wrap > span {
     font-size: 12px;
 }
+
