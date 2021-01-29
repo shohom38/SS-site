@@ -27,9 +27,14 @@
     margin-top: 10px;
 }
 
+.banner-contents-wrap {
+    margin-top: 91px;
+}
+
 .article-wrap {
     width: 310px;
-    margin-top: 91px;
+    display: inline-block;
+    vertical-align: top;
 }
 
 .article-wrap > h2 > a {
@@ -112,6 +117,50 @@
 
 .ad-wrap {
     text-align: left;
+    background-color: #ffffff;
+    padding: 21px 26px 34px 20px;
+    position: relative;
+}
+
+.link-sns-wrap {
+    position: absolute;
+    top: -6px;
+    right: 0;
+}
+
+.link-sns-wrap::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.link-sns-wrap > li {
+    float: left;
+}
+
+.link-sns-wrap > li + li {
+    margin-left: 3px;
+}
+
+.title-h4-wrap {
+    position: relative;
+}
+
+.title-h4-wrap > img {
+    float: left;
+}
+
+.ad-wrap > .title-h4-wrap > h4 {
+    height: 13px;
+    font-size: 0;
+}
+
+.youtube > .title-h4-wrap > h4 {
+    background: url('../img/contents/youtube-title.png') 0 0 no-repeat;
+}
+
+.facebook > .title-h4-wrap > h4 {
+    background: url('../img/contents/facebook-title.png') 0 0 no-repeat;
 }
 
 .youtube-shortcuts-wrap > a,
