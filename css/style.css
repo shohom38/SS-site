@@ -9,6 +9,7 @@
 .title-company-wrap {
     width: 960px;
     margin: 0 auto;
+    position: relative;
 }
 
 .title-company-wrap > p:first-child {
@@ -29,12 +30,21 @@
 
 .banner-contents-wrap {
     margin-top: 91px;
+    width: 960px;
+    margin: 91px auto 0;
+}
+
+.banner-contents-wrap::after {
+    content: "";
+    display: block;
+    clear: both;
 }
 
 .article-wrap {
+    float: left;
     width: 310px;
-    display: inline-block;
     vertical-align: top;
+    padding-top: 7px;
 }
 
 .article-wrap > h2 > a {
@@ -45,6 +55,18 @@
 
 .article-wrap > img {
     vertical-align: top;
+}
+
+.archt-wrap {
+    background: url('../img/contents/top-bg-youtube.png') 0 top repeat-x;
+}
+
+.trading-wrap {
+    background: url('../img/contents/top-bg-fb.png') 0 top repeat-x;
+}
+
+.investment-wrap {
+    background: url('../img/contents/top-bg-invest.png') 0 4px repeat-x;
 }
 
 .archt-wrap > h2 > a {
@@ -81,9 +103,22 @@
     position: relative;
 }
 
+.invest-wrap {
+    text-align: left;
+    padding: 18px 0 15px 17px;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.invest-wrap > .title-h4-wrap > h4 {
+    background: url('../img/contents/invest-title.png') 0 0 no-repeat;
+    height: 12px;
+    font-size: 0;
+}
+
 .notice-wrap > .title-h4-wrap > h4 {
     background: url('../img/contents/News-title.png') 0 0 no-repeat;
-    height: 13px;
+    height: 12px;
     font-size: 0;
 }
 
@@ -104,7 +139,7 @@
 
 .notice-wrap > ul > li > a {
     font-size: 12px;
-    line-height: 20px;
+    line-height: 16px;
     color: #282828;
 }
 
@@ -118,14 +153,14 @@
 .ad-wrap {
     text-align: left;
     background-color: #ffffff;
-    padding: 21px 26px 22px 20px;
+    padding: 21px 0 18px 20px;
     position: relative;
 }
 
 .link-sns-wrap {
     position: absolute;
     top: -3px;
-    right: 0;
+    right: 26px;
 }
 
 .link-sns-wrap::after {
@@ -146,8 +181,12 @@
     position: relative;
 }
 
-.title-h4-wrap > img {
-    float: left;
+.sns-contents-wrap {
+    margin-top: 14px;
+}
+
+.sns-contents-wrap > img {
+    vertical-align: middle;
 }
 
 .ad-wrap > .title-h4-wrap > h4 {
@@ -171,12 +210,22 @@
     background: url('../img/contents/facebook-title.png') 0 0 no-repeat;
 }
 
+.youtube-shortcuts-wrap,
+.facebook-shortcuts-wrap {
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 6px;
+}
 
 .youtube-shortcuts-wrap > h5,
 .facebook-shortcuts-wrap > h5,
 .youtube-shortcuts-wrap > a,
 .facebook-shortcuts-wrap > span {
     font-size: 14px;
+}
+
+.sns-btn-link-wrap {
+    margin-top: 8px;
 }
 
 .sns-btn-link-wrap > a {
@@ -201,5 +250,88 @@
     width: 68px;
     height: 26px;
     vertical-align: middle;
+    cursor: pointer;
 }
 
+.slide-title-wrap {
+    position: relative;
+    background: #ffffff;
+    width: 310px;
+    height: 120px;
+}
+
+.slide-title-wrap > a {
+    background: url('../img/contents/slide-title-1.png') 0 0 no-repeat;
+    font-size: 0;
+    display: block;
+    height: 120px;
+}
+
+.slide-title-wrap > button {
+    height: 120px;
+    position: absolute;
+    border: none;
+    outline: none;
+    font-size: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+.slide-title-wrap > button:nth-child(2) {
+    background: url('../img/contents/title-prev-btn.png') 0 0 no-repeat;
+    width: 22px;
+    left: 0;
+}
+
+.slide-title-wrap > button:nth-child(3) {
+    background: url('../img/contents/title-next-btn.png') 0 0 no-repeat;
+    width: 21px;
+    right: 0;
+}
+
+.csr-wrap {
+    position: relative;
+}
+
+.csr-wrap > a {
+    display: block;
+    font-size: 0;
+}
+
+.csr-slide-wrap {
+    background: url('../img/contents/csr-contents-title.png') 0 0 no-repeat;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    opacity: 70%;
+}
+
+.csr-slide-wrap > button {
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 0;
+    width: 30px;
+    height: 30px;
+    font-size: 0;
+    cursor: pointer;
+}
+
+.csr-slide-wrap > p {
+    font-size: 0;
+    line-height: 30px;
+    background: url('../img/contents/hopeful-mc-fam.png') center 0 no-repeat;
+    text-align: center;
+    opacity: 100%;
+}
+
+.csr-slide-wrap > button:nth-child(2) {
+    background: url('../img/contents/csr-slide-prev.png') 0 0 no-repeat;
+    left: 0;
+}
+
+.csr-slide-wrap > button:last-child {
+    background: url('../img/contents/csr-slide-next.png') 0 0 no-repeat;
+    right: 0;
+}
