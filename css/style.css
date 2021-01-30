@@ -59,10 +59,12 @@
 
 .archt-wrap {
     background: url('../img/contents/top-bg-youtube.png') 0 top repeat-x;
+    position: relative;
 }
 
 .trading-wrap {
     background: url('../img/contents/top-bg-fb.png') 0 top repeat-x;
+    position: relative;
 }
 
 .investment-wrap {
@@ -334,4 +336,19 @@
 .csr-slide-wrap > button:last-child {
     background: url('../img/contents/csr-slide-next.png') 0 0 no-repeat;
     right: 0;
+}
+
+.archt-wrap::before {
+    content: url('../img/contents/before-img-1.png');
+    display: block;
+    position: absolute;
+    top: -199px;
+    right: 2px;
+}
+
+.trading-wrap::before {
+    content: url('../img/contents/before-img-2.png');
+    display: block;
+    position: absolute;
+    top: -86px;
 }
