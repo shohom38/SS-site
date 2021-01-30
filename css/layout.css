@@ -212,9 +212,162 @@
 
 .contents-wrap {
     padding-top: 35px;
-    text-align: center;
 }
 
 .contents-wrap > article {
     display: inline-block;
+}
+
+.article-wrap + .article-wrap  {
+    margin-left: 15px;
+}
+
+.invest-wrap > .title-h4-wrap > ul::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.invest-wrap > .title-h4-wrap > ul {
+    margin-top: 13px;
+}
+
+.invest-wrap > .title-h4-wrap > ul > li {
+    float: left;
+}
+
+.invest-wrap > .title-h4-wrap > ul > li > a {
+    display: block;
+    font-size: 0;
+    height: 61px;
+}
+
+.invest-wrap > .title-h4-wrap > ul > li:first-child > a {
+    background: url('../img/contents/invest-menu-1.png') 0 0 no-repeat;
+    width: 64px;
+}
+
+.invest-wrap > .title-h4-wrap > ul > li:nth-child(2) > a {
+    background: url('../img/contents/invest-menu-2.png') 0 0 no-repeat;
+    width: 44px;
+}
+
+.invest-wrap > .title-h4-wrap > ul > li:nth-child(3) > a {
+    background: url('../img/contents/invest-menu-3.png') 0 0 no-repeat;
+    width: 52px;
+}
+
+.invest-wrap > .title-h4-wrap > ul > li:nth-child(2) {
+    margin-left: 54px;
+}
+
+.invest-wrap > .title-h4-wrap > ul > li:nth-child(3) {
+    margin-left: 45px;
+}
+
+.top-bar-wrap > .title-h4-wrap > h4 {
+    display: inline-block;
+    height: 12px;
+    vertical-align: top;
+    font-size: 0;
+}
+
+.PR-center-wrap > .title-h4-wrap > h4 {
+    background: url('../img/contents/PRCenter.png') 0 0 no-repeat;
+    width: 64px;
+}
+
+.Recruit-wrap > .title-h4-wrap > h4 {
+    background: url('../img/contents/Recruit.png') 0 0 no-repeat;
+    width: 45px;
+}
+
+.top-bar-wrap {
+    font-size: 0;
+    padding: 25px 0 23px 17px;
+    background: url('../img/contents/divid-bar.png') 0 top repeat-x, #ffffff;
+}
+
+.top-bar-wrap > .title-h4-wrap > ul {
+    display: inline-block;
+    margin-left: 36px;
+}
+
+.top-bar-wrap > .title-h4-wrap > ul > li {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.top-bar-wrap > .title-h4-wrap > ul > li > a {
+    font-size: 0;
+    height: 11px;;
+    display: block;
+}
+
+.PR-center-wrap > .title-h4-wrap > ul > li:first-child > a {
+    background: url('../img/contents/list-management.png') 0 0 no-repeat;
+    width: 97px;
+}
+
+.PR-center-wrap > .title-h4-wrap > ul > li:nth-child(2) > a {
+    background: url('../img/contents/list-video.png') 0 0 no-repeat;
+    width: 45px;
+}
+
+.PR-center-wrap > .title-h4-wrap > ul > li + li {
+    padding-left: 26px;
+}
+
+.Recruit-wrap > .title-h4-wrap > ul > li + li {
+    padding-left: 42px;
+}
+
+.Recruit-wrap > .title-h4-wrap > ul > li:first-child > a {
+    background: url('../img/contents/list-archt.png') 0 0  no-repeat;
+    width: 44px;
+}
+
+.Recruit-wrap > .title-h4-wrap > ul > li:nth-child(2) > a {
+    background: url('../img/contents/list-trading.png') 0 0 no-repeat;
+    width: 45px;
+}
+
+.Recruit-wrap > .title-h4-wrap > ul {
+    margin-left: 53px;
+}
+
+.Recruit-wrap {
+    padding-bottom: 25px;
+    background: url('../img/contents/divid-bar.png') 0 top repeat-x , url('../img/contents/bottom-bg-invest.png') 0 bottom repeat-x, #ffffff;
+}
+
+.tab-position {
+    position: absolute;
+    top: -20px;
+    right: 0;
+}
+
+.tab-position > ul > li {
+    width: 75px;
+    height: 25px;
+    font-size: 0;
+    box-shadow: 3px 3px 2px #a1b2b8;
+}
+
+.tab-position > ul > li > a {
+    display: block;
+    height: 25px;
+}
+
+.tab-position > ul > li {
+    background: url('../img/contents/ss-product-tab.png') 0 0 no-repeat;
+}
+
+.tab-position > ul > li:nth-child(2) {
+    background: url('../img/contents/ss-archt-tab.png') 0 0 no-repeat;
+    margin-top: 5px;
+}
+
+.tab-position > ul > li:nth-child(3) {
+    background: url('../img/contents/ss-trading-tab.png') 0 0 no-repeat;
 }
